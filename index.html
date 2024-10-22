@@ -3,152 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pages</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
     <!-- Тег header используется для определения верхнего блока, который обычно содержит логотип, название сайта, навигационное меню -->
     <header>
-        <div>
+        <div class="head-block">
             <div class="logo">
-                <img src="" alt="логотип сайта">Pages
+                <img src="./assets/img/logo.svg" alt="логотип сайта">Pages
             </div>
-            <div>
-                <a href=""><img src="" alt="ссылка на facebook"></a>
-                <a href=""><img src="" alt="ссылка на twitter"></a>
-                <a href=""><img src="" alt="ссылка на in"></a>
+            <div class="socialNetworks">
+                <a href=""><img src="./assets/img/facebook.svg" alt="ссылка на facebook"></a>
+                <a href=""><img src="./assets/img/twitter.svg" alt="ссылка на twitter"></a>
+                <a href=""><img src="./assets/img/in.svg" alt="ссылка на in"></a>
                 <!-- Тег img используется для вставки изображений на веб-страницу -->
             </div>
+            <nav>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Pages</a>
+                <a href="">Contact Us</a>
+                <a href=""><img src="./assets/img/basket.svg" alt="корзина"></a>
+                <!-- Тег a используется для создания гиперссылок -->
+            </nav>
+            <!-- Тег nav используется для определения блока навигационной панели -->
+            <div class="order-block">
+                <button>Order Today</button>
+            </div>
+            <!-- Тег button используется для создания интерактивной кнопки -->
         </div>
-        <nav>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Pages</a>
-            <a href="">Contact Us</a>
-            <a href=""><img src="" alt="корзина"></a>
-            <!-- Тег a используется для создания гиперссылок -->
-        </nav>
-        <!-- Тег nav используется для определения блока навигационной панели -->
-        <button>Order Today</button>
-        <!-- Тег button используется для создания интерактивной кнопки -->
     </header>
-    <div>
-        <img src="" alt="обложка книги The dark light">
-        <span>Welcome To Pages!!!</span>
-        <!-- Тег span используется для группировки текста или элементов в строку -->
-        <h1>Your Books From<br>
-            The Best Writer.</h1>
-        <!-- Тег br используется для переноса контента на новую строку -->
-        <!-- Тег h1 используется для обозначения самого важного заголовока, который обычно содержит название сайта или основной заголовок -->
-         <p>We believe that reading books are essential to a healthy culture.<br>
-            They’re where authors can connect with readers.</p>
-        <!-- Тег p используется для создания абзацев текста -->
-        <button>Order Today</button> 
-        <button><u>Read Free Demo</u></button>
-        <!-- Тег u используется для подчеркивания текста -->
-        <table>
-            <!-- Тег table используется для создания таблицы -->
-            <tr>
-                <!-- Тег tr - строка -->
-                <td>
-                    <!-- Тег td - ячейка таблицы -->
-                    <div></div>
-                    <span>Pages:</span>
-                </td>
-                <td>
-                    <div></div>
-                    <span>Length:</span>
-                </td>
-                <td>
-                    <div></div>
-                    <span>Rating:</span>
-                </td>
-            </tr>
-            <tr>
-                <td>250 pages</td>
-                <td>10 Hours</td>
-                <td>4.5/5 (305 ratings)</td>
-            </tr>
-        </table>
-    </div>
     <main>
+        <section>
+            <div class="main-block1-parent">
+                <div class="main-block1">
+                    <div class="main-block1-pod-block">
+                        <div class="wlcm-block">
+                            <div></div>
+                            <span>Welcome To Pages!!!</span>
+                        </div>
+                        <!-- Тег span используется для группировки текста или элементов в строку -->
+                        <h1>Your Books From<br>
+                        The Best Writer.</h1>
+                        <!-- Тег br используется для переноса контента на новую строку -->
+                        <!-- Тег h1 используется для обозначения самого важного заголовока, который обычно содержит название сайта или основной заголовок -->
+                        <p>We believe that reading books are essential to a healthy culture.<br>
+                        They’re where authors can connect with readers.</p>
+                        <!-- Тег p используется для создания абзацев текста -->
+                        <div class="main-block1-pod-block-btns">
+                            <button>Order Today</button> 
+                            <a href="">Read Free Demo</a>
+                        </div>
+                        <!-- Тег u используется для подчеркивания текста -->
+                        <table class="first-table">
+                        <!-- Тег table используется для создания таблицы -->
+                            <tr>
+                            <!-- Тег tr - строка -->
+                                <td>
+                                <!-- Тег td - ячейка таблицы -->
+                                    <div class="table-cell">
+                                        <div></div>
+                                        <span>Pages:</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="table-cell">
+                                        <div></div>
+                                        <span>Length:</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="table-cell">
+                                        <div></div>
+                                        <span>Rating:</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>250 pages</td>
+                                <td>10 Hours</td>
+                                <td>4.5/5 (305 ratings)</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <img src="./assets/img/bookTheDarkLight.png" alt="обложка книги The dark light">
+                </div>
+            </div>
+        </section>
         <!-- Тег main используется для обозначения основного содержимого документа -->
          <section>
-            <!-- Тег section используется для группировки связанного контента -->
+            <div class="main-block2">
+                <!-- Тег section используется для группировки связанного контента -->
             <h2>The Author’s Book</h2>
+            <hr>
             <!-- Тег h2 используется для обозначения заголовка второго уровня -->
-             <div>
-                <div>
-                    <img src="" alt="картинка товара">
-                    <h3>Atomic One’s</h3>
-                    <!-- Тег h3 используется для обозначения заголовка третьего уровня -->
-                    <div>$ 13.84 USD</div>
-                    <p>As the book contains theoretical content as well as solved questions.</p>
-                    <div>
-                        <div></div>
-                        Printed Book
+             <div class="main-block2-pod-block">
+                <div class="product-card">
+                    <img src="./assets/img/productImg1.png" alt="картинка товара">
+                    <div class="product-card-info">
+                        <h3>Atomic One’s</h3>
+                        <!-- Тег h3 используется для обозначения заголовка третьего уровня -->
+                        <div class="product-price">$ 13.84 USD</div>
+                        <p>As the book contains<br>
+                            theoretical content as well as<br>
+                            solved questions.</p>
+                        <div class="printed-book">
+                            <div></div>
+                            Printed Book
+                        </div>
+                        <button class="buy-btn">Order Now</button>
                     </div>
                 </div>
-                <div>
-                    <img src="" alt="картинка товара">
-                    <h3>The Dark Light</h3>
-                    <div>$ 86.11 USD</div>
-                    <p>As the book contains theoretical content as well as solved questions.</p>
-                    <div>
-                        <div></div>
-                        Printed Book
+                <div class="product-card">
+                    <img src="./assets/img/productImg2.png" alt="картинка товара">
+                    <div class="product-card-info">
+                        <h3>The Dark Light</h3>
+                        <div class="product-price">$ 86.11 USD</div>
+                        <p>As the book contains<br>
+                            theoretical content as well as<br>
+                            solved questions.</p>
+                        <div class="printed-book">
+                            <div></div>
+                            Printed Book
+                        </div>
+                        <button class="buy-btn">Order Now</button>
                     </div>
-                    <button>Order Now</button>
                 </div>
              </div>
+            </div>
          </section>
          
          <article>
-            <!-- Тег article используется для обозначения автономного, независимого блока контента, который может быть использован отдельно от остальной части страницы -->
-            <img src="" alt="фото автора">
-            <h2>Abour The Author</h2>
-            <p>We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
-            <table>
-                <tr>
-                    <td><h3>02</h3></td>
-                    <td><h3>4.5</h3></td>
-                    <td><h3>04</h3></td>
-                </tr>
-                <tr>
-                    <td>Books Published</td>
-                    <td>User Reviews</td>
-                    <td>Best Seller Awards</td>
-                </tr>
-            </table>
-            <div>
-                <img src="" alt="QR-code ссылка на данные автора">
-                <h4>John Abraham , Ph.d</h4>
-                <p>Mail: johnabraham@gmail.com<br>
-                    Phone: (+2) 123 545 9000</p>
+            <div class="main-block3-parent">
+                <div class="main-block3">
+                    <!-- Тег article используется для обозначения автономного, независимого блока контента, который может быть использован отдельно от остальной части страницы -->
+                     <div class="frame"></div>
+                    <img src="./assets/img/authorImg.png" alt="фото автора">
+                    <div class="main-block3-pod-block">
+                        <div>
+                            <h2>Abour The Author</h2>
+                            <hr>
+                        </div>
+                        <p>We believe that bookstores are essential to a healthy culture.<br>
+                            They’re where authors can connect with readers, where we<br>
+                            discover new writers, where children get hooked on the thrill<br>
+                            of reading that can last a lifetime.</p>
+                        <table class="second-table">
+                            <tr>
+                                <td><h3>02</h3></td>
+                                <td><h3>4.5</h3></td>
+                                <td style="border: none;"><h3>04</h3></td>
+                            </tr>
+                            <tr>
+                                <td>Books Published</td>
+                                <td>User Reviews</td>
+                                <td style="border: none;">Best Seller Awards</td>
+                            </tr>
+                        </table>
+                        <div class="author-contacts">
+                            <img src="./assets/img/QR-code.png" alt="QR-code ссылка на данные автора">
+                            <div>
+                                <h4>John Abraham , Ph.d</h4>
+                                <p>Mail: johnabraham@gmail.com<br>
+                                    Phone: (+2) 123 545 9000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
          </article>
 
          <section>
-            <h2>Trusted By The Best</h2>
-            <div>
+            <div class="main-block4">
                 <div>
-                    <img src="" alt="логотип Amazen Corp">
-                    <h3>Amazen Corp.</h3>
-                    <p>They has been helping readers, music lovers, and videophiles find quality material.</p>
+                    <h2>Trusted By The Best</h2>
+                    <hr>
                 </div>
-                <div>
-                    <img src="" alt="логотип Megan Books">
-                    <h3>Megan Books</h3>
-                    <p>We help physical bookstores manage their overstock to the book inventory.</p>
-                </div>
-                <div>
-                    <img src="" alt="логотип Megank">
-                    <h3>Megank</h3>
-                    <p>Bookstore serving up the full spectrum of Black literature and wine black books.</p>
-                </div>
-                <div>
-                    <img src="" alt="логотип Urban Store">
-                    <h3>Urban Store</h3>
-                    <p>We also carry the latest records, issues of all of your favorite comic books.</p>
+                <div class="main-block4-pod-block">
+                    <div>
+                        <img src="./assets/img/secondaryLogo1.png" alt="логотип Amazen Corp">
+                        <h3>Amazen Corp.</h3>
+                        <p>They has been helping readers, music lovers, and videophiles find quality material.</p>
+                    </div>
+                    <div>
+                        <img src="./assets/img/secondaryLogo2.png" alt="логотип Megan Books">
+                        <h3>Megan Books</h3>
+                        <p>We help physical bookstores manage their overstock to the book inventory.</p>
+                    </div>
+                    <div>
+                        <img src="./assets/img/secondaryLogo3.png" alt="логотип Megank">
+                        <h3>Megank</h3>
+                        <p>Bookstore serving up the full spectrum of Black literature and wine black books.</p>
+                    </div>
+                    <div>
+                        <img src="./assets/img/secondaryLogo4.png" alt="логотип Urban Store">
+                        <h3>Urban Store</h3>
+                        <p>We also carry the latest records, issues of all of your favorite comic books.</p>
+                    </div>
                 </div>
             </div>
          </section>
