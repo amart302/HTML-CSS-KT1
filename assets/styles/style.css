@@ -401,3 +401,114 @@ nav a{
     text-align: center;
     color: var(--trinity-color);
 }
+
+.main-block5-parent{
+    background-color: var(--primary-color);
+    height: 540px;
+    display: flex;
+    align-items: center;
+}
+.main-block5{
+    width: 1300px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 560px;
+}
+.main-block5 img{
+    width: 560px;
+    height: 400px;
+}
+.main-block5-pod-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-block: 50px;
+}
+.main-block5-pod-block h2{
+    font-family: var(--secondary-font);
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+}
+.main-block5-pod-block hr{
+    width: 50px;
+    height: 3px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin-top: 10px;
+}
+.main-block5-pod-block p{
+    font-family: var(--primary-font);
+    font-size: 19px;
+    font-weight: 400;
+    color: #B4C7E7;
+}
+.main-block5-pod-block button{
+    width: 222px;
+    height: 66px;
+    background: transparent;
+    border: 1px solid var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+.main-block6-parent{
+    margin-top: 80px;
+}
+.main-block6-parent h2{
+    font-family: var(--secondary-font);
+    font-size: 42px;
+    font-weight: 400;
+    color: var(--primary-color);
+    text-align: center;
+}
+.main-block6-parent hr{
+    display: grid;
+    grid-template-columns: 1fr 540px;
+    width: 50px;
+    height: 3px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin-top: 10px;
+    margin-inline: auto;
+}
+.main-block6 img{
+    width: 540px;
+    height: 632px;
+}
+.main-block6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.main-block6-pod-block{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.main-block6-pod-block h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--secondary-font);
+    font-size: 23px;
+    font-weight: 400;
+    color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+.main-block6-pod-block p{
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+.main-block6-pod-block div{
+    padding: 10px;
+    background-color: #0661ff;
+}
